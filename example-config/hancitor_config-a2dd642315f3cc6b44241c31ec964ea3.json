@@ -1,0 +1,9 @@
+{
+    "campaign": "2311_nsdir",
+    "c2Servers": [
+        "http://templogio.com/9/forum.php",
+        "http://johommeract.ru/9/forum.php",
+        "http://amesibiquand.ru/9/forum.php"
+    ],
+    "sampleSHA256": "ab2a474c3fd276095d7db5d78df356a572b1eee397ef1977facd8df214db3db0"
+}
