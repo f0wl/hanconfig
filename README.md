@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/f0wl/hanconfig)](https://goreportcard.com/report/github.com/f0wl/hanconfig)
+
 # hanConfig
 
 hanConfig is a static configuration extractor implemented in Golang for the Hancitor Loader (targeting Microsoft Windows, [Malpedia](https://malpedia.caad.fkie.fraunhofer.de/details/win.hancitor)). By default the script will print the extracted information to stdout (verbose output can be enabled with the ```-v``` flag). It is also capable of dumping the malware configuration to disk as a JSON file with the ```-j``` flag.
