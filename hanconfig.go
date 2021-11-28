@@ -85,6 +85,7 @@ func rc4decrypt(extkey []byte, data []byte) []byte {
 }
 
 // removeEmptyStrings cleans up unnecessarily large string arrays
+// Source: https://gist.github.com/johnpili/84c3064d30a9b041c87e43ba4bcb63a2
 func removeEmptyStrings(s []string) []string {
 	var r []string
 	for _, str := range s {
@@ -190,7 +191,8 @@ func main() {
 
 	// Print the extracted configuration
 	fmt.Printf("\nCampaign ID: %v\n\n", cfg.Campaign)
-
+	
+	// Loop through the c2 array and print the URLs
 	for i := 0; i < len(cfg.C2); i++ {
 		fmt.Printf("C2 #%v: %v\n", i, cfg.C2[i])
 	}
