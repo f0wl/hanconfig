@@ -191,7 +191,7 @@ func main() {
 
 	// Print the extracted configuration
 	fmt.Printf("\nCampaign ID: %v\n\n", cfg.Campaign)
-	
+
 	// Loop through the c2 array and print the URLs
 	for i := 0; i < len(cfg.C2); i++ {
 		fmt.Printf("C2 #%v: %v\n", i, cfg.C2[i])
