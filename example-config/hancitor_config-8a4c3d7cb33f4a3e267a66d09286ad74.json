@@ -1,1 +1,9 @@
-{"campaign":"1706_apkreb6","c2Servers":["http://thestaccultur.com/8/forum.php","http://arguendinfuld.ru/8/forum.php","http://waxotheousch.ru/8/forum.php"],"sampleSHA256":"f4f18fd34162fda6ce4bef18228de8c1bdc1c5285abaf2fa73c1ccbe087a34dd"}
+{
+    "campaign": "1706_apkreb6",
+    "c2Servers": [
+        "http://thestaccultur.com/8/forum.php",
+        "http://arguendinfuld.ru/8/forum.php",
+        "http://waxotheousch.ru/8/forum.php"
+    ],
+    "sampleSHA256": "f4f18fd34162fda6ce4bef18228de8c1bdc1c5285abaf2fa73c1ccbe087a34dd"
+}
