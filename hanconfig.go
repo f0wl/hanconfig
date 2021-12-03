@@ -61,7 +61,7 @@ func calcSHA256(file string) string {
 	return hex.EncodeToString(h.Sum(nil))
 }
 
-// calcMD5 reads the sample file and calculates its SHA-256 hashsum
+// calcMD5 reads the sample file and calculates its MD5 hashsum
 func calcMD5(file string) string {
 
 	f, readErr := os.Open(file)
